@@ -2,5 +2,6 @@
 	"name": "Name of the agent",
 	"package": "package_name",
 	"author": "Author",
+    "author_email": "my@email.com",
 	"short_desc": "..."
 }
