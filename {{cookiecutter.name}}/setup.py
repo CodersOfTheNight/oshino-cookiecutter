@@ -10,7 +10,9 @@ setup(name="{{cookiecutter.package}}",
       author="{{cookiecutter.author}}",
       author_email="{{cookiecutter.author_email}}",
       packages=["{{cookiecutter.package}}"],
-      install_requires=[str(ir.req) for ir in install_reqs],
+      install_requires=[
+          "oshino>=0.1.0"
+      ],
       test_suite="pytest",
       tests_require=["pytest", "pytest-cov"],
       setup_requires=["pytest-runner"]
